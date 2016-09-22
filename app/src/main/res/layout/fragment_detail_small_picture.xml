@@ -1,0 +1,23 @@
+<android.support.percent.PercentRelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    tools:context=".ui.DetailSmallPictureFragment"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/drawee_detail_picture"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right|top"
+        android:contentDescription="@string/item_main_content_description_icon"
+        app:layout_aspectRatio="178%"
+        app:layout_widthPercent="100%"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImage="@drawable/picture_placeholder"
+        fresco:placeholderImageScaleType="centerCrop" />
+
+</android.support.percent.PercentRelativeLayout>

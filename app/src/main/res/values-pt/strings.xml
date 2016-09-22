@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_main_placeholder_text_contact_data">+55 (13) 999777222</string>
+    <string name="item_main_placeholder_text_contact_description">Número de telefone</string>
+    <string name="item_main_content_description_icon">Ícone do item</string>
+    <string name="str_dlg_actv_main_input_film">Nome do filme</string>
+    <string name="str_dlg_actv_main_input_year">Ano (opcional)</string>
+    <string name="str_dlg_actv_main_query_positive">Pesquisar</string>
+    <string name="str_dlg_actv_main_query_negative">Cancelar</string>
+    <string name="str_dlg_actv_main_query_message">Pesquisa de filmes</string>
+    <string name="loading">Carregando...</string>
+    <string name="service_failure">Erro de serviço, tente mais tarte...</string>
+    <string name="str_toast_no_movie" >Filme não encontrado</string>
+    <string name="str_toast_movie_already">Filme já consta</string>
+    <string name="title_activity_main">Teste Zap Imoveis</string>
+    <string name="app_name">Zap Android Dev Teste</string>
+
+
+    <string name="str_item_dorms">&#160;dorms</string>
+    <string name="str_item_square_metre">&#160;m²</string>
+    <string name="str_item_parking_spaces">&#160;vagas</string>
+    <string name="str_item_suite">&#160;suite</string>
+    <string name="str_dialog_positive">OK</string>
+    <string name="str_dialog_negative">Cancelar</string>
+    <string name="str_dialog_title_sort">Ordenar</string>
+    <string name="str_detail_plot">Enredo: \u0020</string>
+    <string name="str_detail_year">Ano: \u0020</string>
+    <string name="str_detail_runtime">Duração: \u0020</string>
+    <string name="str_detail_country">País: \u0020</string>
+    <string name="str_detail_director">Diretores: \u0020</string>
+    <string name="str_detail_writer">Escritores: \u0020</string>
+    <string name="str_detail_cast">Atores: \u0020</string>
+    <string name="str_detail_imdb">Nota e votos (imdb): \u0020</string>
+
+    <string name="str_card_quatities_dorms">Dorms</string>
+    <string name="str_card_quatities_suite">Suites(s)</string>
+    <string name="str_card_quatities_cg">Vaga(s)</string>
+    <string name="str_card_quatities_area">Área(m²)</string>
+    <string name="str_card_desc_carac">Características</string>
+    <string name="str_card_desc_desc">Descrição</string>
+    <string name="str_card_sale_value">Valor de venda</string>
+    <string name="str_card_desc_cond_tax"><![CDATA[<font color=\'lightgrey\'>Valor do condomínio:</font> <font color=\'grey\'>%1$s</font>]]></string>
+    <string name="str_card_desc_meter_value"><![CDATA[<font color=\'lightgrey\'>Valor do m²:</font> <font color=\'grey\'>%1$s</font>]]></string>
+    <string name="str_card_other_realty_carac"><![CDATA[<font color=\'lightgrey\'>Características do Imóvel:</font> <font color=\'grey\'>%1$s</font>]]></string>
+    <string name="str_card_other_common_area_chara"><![CDATA[<font color=\'lightgrey\'>Características das Áreas Comuns:</font> <font color=\'grey\'>%1$s</font>]]></string>
+    <string name="str_card_other_carac">Outras características</string>
+    <string name="str_dialog_form_email" >E-Mail</string>
+    <string name="str_dialog_form_back"  >Cancelar</string>
+    <string name="str_dialog_form_submit"  >Enviar</string>
+    <string name="str_dialog_form_name"  >Nome</string>
+    <string name="str_dialog_form_phone"  >Tel.</string>
+    <string name="validation_error_wrong_phone">Número inválido</string>
+    <string name="validation_error_wrong_name">Nome inválido</string>
+    <string name="validation_error_empty_mail">E-mail inválido</string>
+    <string name="str_delivered_message">Sua mensagem foi enviada.</string>
+    <string name="str_dialog_form_comment">Comentário</string>
+    <string name="validation_error_wrong_comment">Comantário muito curto</string>
+    <string name="validation_error_empty">Campo obrigatório.</string>
+    <string name="str_card_get_in_touch">Entrar em contato</string>
+    <string name="maps_not_installed">Google Maps não está disponível no seu dispositivo</string>
+    <string name="tv_fullscreen_gallery_nothing_to_show">Nothing to show</string>
+
+    <string-array name="sort_options">
+        <item>Dormitorios</item>
+        <item>Menor valor</item>
+        <item>Marior valor</item>
+        <item>Área total</item>
+    </string-array>
+
+</resources>

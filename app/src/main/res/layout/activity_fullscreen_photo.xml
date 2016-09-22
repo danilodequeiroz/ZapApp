@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FullScreenPhotoActivity">
+
+    <com.brutcode.seedapp.HackyViewPager
+        android:id="@+id/vp_fullscreen_gallery"
+        android:layout_width="match_parent"
+        android:background="@color/pitch_black"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/ib_fullscreen_gallery_close_button"
+        android:layout_width="?android:attr/actionBarSize"
+        android:layout_height="?android:attr/actionBarSize"
+        android:src="@drawable/ic_content_clear"
+        android:background="@color/someTransparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/vp_fullscreen_gallery" />
+
+    <TextView
+        android:id="@+id/tv_fullscreen_gallery_nothing_to_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:textColor="@color/pure_white"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:text="@string/tv_fullscreen_gallery_nothing_to_show" />
+</RelativeLayout>

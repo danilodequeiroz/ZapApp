@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_main_item_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/detail_cardCornerRadius"
+    app:cardElevation="@dimen/detail_cardElevation"
+    app:contentPadding="@dimen/detail_contentPadding"
+    app:cardUseCompatPadding="true"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:layout_toStartOf="@+id/imageView1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_editor_format_align_left"
+                android:layout_marginRight="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_card_desc_carac"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <TextView
+                    android:id="@+id/text_card_desc_cond_tax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_card_desc_cond_tax"/>
+                <TextView
+                    android:id="@+id/text_card_desc_squarem_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_card_desc_meter_value"/>
+            </LinearLayout>
+        </LinearLayout>
+</android.support.v7.widget.CardView>

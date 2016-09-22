@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/theme_green_background"--><!--&gt;-->
+<!--</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:gravity="right">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_dialog_contact_form_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_dialog_contact_form_name"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textPersonName|textCapSentences"
+                    android:maxLength="120"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_dialog_form_name" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_dialog_contact_form_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_dialog_contact_form_phone"
+                    android:imeOptions="flagNoExtractUi"
+                    android:maxLines="1"
+                    android:maxLength="12"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_dialog_form_phone" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_dialog_contact_form_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_dialog_contact_form_email"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:maxLines="1"
+                    android:maxLength="120"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_dialog_form_email" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_dialog_contact_form_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_dialog_contact_form_comment"
+                    android:imeOptions="flagNoExtractUi"
+                    android:layout_width="match_parent"
+                    android:minLines="1"
+                    android:maxLines="6"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:isScrollContainer="true"
+                    android:maxLength="240"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_dialog_form_comment" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

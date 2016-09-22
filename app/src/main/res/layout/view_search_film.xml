@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtx_dialog_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_dlg_actv_main_input_film"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="flagNoExtractUi" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtx_dialog_input_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:maxLines="1"
+
+            android:hint="@string/str_dlg_actv_main_input_year"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+             />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
